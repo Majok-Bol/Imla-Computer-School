@@ -1,0 +1,114 @@
+body {
+  overflow-x: hidden;
+}
+.link-list {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.heading {
+  font-size: 35px;
+  text-align: center;
+}
+.paragraph {
+  font-size: 25px;
+}
+.item {
+  font-size: 25px;
+}
+.term-item {
+  list-style: none;
+}
+.term {
+  text-decoration: none;
+}
+#icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem;
+}
+span {
+  margin-left: 1rem;
+}
+
+#about-us {
+  width: 100%;
+}
+.images-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.img-div {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
+#facilities {
+  width: 100%;
+}
+#nav-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+}
+.copyrights {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.copy {
+  display: block;
+  float: right;
+  padding: 0.5rem;
+}
+.list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+  margin-top: 0.5rem;
+}
+#nav-logo {
+  width: 10%;
+}
+#logo {
+  width: 100%;
+}
+.image-logo {
+  width: 20%;
+}
+#navigation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2rem;
+}
+#about-us {
+}
+#facilities {
+}
+#contact-us {
+}
+hr {
+  height: 0.15rem;
+  margin-top: 1.5rem;
+  background-color: #be3144;
+}
+.introduction {
+  background-image: url(./images/facilities\ one.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  opacity:0.75;
+  height:30rem;
+  padding:2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}
