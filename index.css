@@ -90,25 +90,61 @@ span {
   right: 0;
   padding: 2rem;
 }
-#about-us {
-}
-#facilities {
-}
-#contact-us {
-}
+
 hr {
   height: 0.15rem;
   margin-top: 1.5rem;
   background-color: #be3144;
 }
 .introduction {
-  background-image: url(./images/facilities\ one.jpg);
+  background-image: url(./images/introduction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color:white;
-  opacity:0.75;
-  height:30rem;
-  padding:2rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 8;
+  height: 50rem;
+  padding: 2rem;
+}
+.history {
+  background-image: url(./images/intro\ two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 50rem;
+  width: 100%;
+  opacity: 4.5;
+  padding: 2rem;
+}
+.values {
+  background-image: url(./images/team\ work.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 50rem;
+  width: 100%;
+  opacity: 4.5;
+  padding: 2rem;
   
 }
+.expertise {
+  background-image: url(./images/expertise.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 50rem;
+  width: 100%;
+  opacity: 4.5;
+  padding: 2rem;
+}
+.facilities {
+  background-image: url(./images/intro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 50rem;
+  width: 100%;
+  opacity: 4.5;
+  padding: 2rem;
+}
+
+ 
