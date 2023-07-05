@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  margin: 0;
 }
 .link-list {
   list-style: none;
@@ -96,55 +97,81 @@ hr {
   margin-top: 1.5rem;
   background-color: #be3144;
 }
-.introduction {
+
+.img-section {
+ padding: 2rem;
+}
+
+.introduction{ 
+ margin-top: 2rem;
+ height: 80vh;
+ 
+}
+.background-image-introduction {
   background-image: url(./images/introduction.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  opacity: 8;
-  height: 50rem;
-  padding: 2rem;
+  height: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
 }
-.history {
+
+.overlay-introduction {
+  position: relative;
+  background-color: black;
+  opacity: 0.7;
+  height: 100%;
+  top: -44rem;
+}
+
+.introduction-container {
+  position: absolute;
+  top: 35rem;
+  color: white;
+  padding: 1.5rem;
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+
+.background-image-history {
   background-image: url(./images/intro\ two.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   height: 50rem;
   width: 100%;
-  opacity: 4.5;
+  opacity: 100;
   padding: 2rem;
 }
-.values {
+.background-image-values {
   background-image: url(./images/team\ work.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   height: 50rem;
   width: 100%;
-  opacity: 4.5;
+  opacity: 10;
   padding: 2rem;
-  
 }
-.expertise {
+.background-image-expertise {
   background-image: url(./images/expertise.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   height: 50rem;
   width: 100%;
-  opacity: 4.5;
+  opacity: 100;
   padding: 2rem;
 }
-.facilities {
+.background-image-facilities {
   background-image: url(./images/intro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   height: 50rem;
   width: 100%;
-  opacity: 4.5;
+  opacity: 100;
   padding: 2rem;
+  margin-bottom: 2rem;
 }
-
- 
