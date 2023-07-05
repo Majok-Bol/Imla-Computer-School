@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  margin: 0;
 }
 .link-list {
   list-style: none;
@@ -29,6 +30,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 4rem;
+  font-size:1.05rem;
 }
 span {
   margin-left: 1rem;
@@ -96,9 +98,10 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 55vh;
-  margin-bottom: 2rem;
+  height: 50vh;
+  margin-bottom: 1rem;
   font-weight: 500;
+  margin-top: 1rem;
 }
 
 .overlay-introduction {
@@ -112,7 +115,6 @@ span {
 
 .introduction-container {
   position: absolute;
-
   bottom: 8rem;
   padding: 2rem;
 }
@@ -122,7 +124,7 @@ span {
   background-size: cover;
   color: white;
   height: 60vh;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 500;
 }
 .overlay-history {
@@ -144,7 +146,7 @@ span {
   background-size: cover;
   color: white;
   height: 80vh;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 500;
 }
 .values-container {
@@ -166,7 +168,7 @@ span {
   background-size: cover;
   color: white;
   height: 70vh;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 500;
 }
 .expertise-container {
@@ -188,12 +190,12 @@ span {
   background-size: cover;
   color: white;
   height: 70vh;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 500;
 }
 .facilities-container {
   position: relative;
-  bottom: 38rem;
+  bottom: 35rem;
   padding: 2rem;
 }
 .overlay-facilities {
@@ -203,4 +205,11 @@ span {
   top: 0;
   height: 100%;
   width: 100%;
+}
+footer {
+  background-color: grey;
+}
+#contact-us{
+  background-color:#363F46 ;
+  margin-top:1rem;
 }
