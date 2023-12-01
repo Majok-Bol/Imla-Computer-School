@@ -1,6 +1,8 @@
 body {
   overflow-x: hidden;
   margin: 0;
+  width: 100%;
+  padding: 0;
 }
 .link-list {
   list-style: none;
@@ -10,14 +12,14 @@ body {
 }
 
 .heading {
-  font-size: 35px;
+  font-size: 1.8rem;
   text-align: center;
 }
 .paragraph {
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 .item {
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 .term-item {
   list-style: none;
@@ -30,7 +32,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 4rem;
-  font-size:1.05rem;
+  font-size: 1.05rem;
 }
 span {
   margin-left: 1rem;
@@ -44,7 +46,8 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  gap: 2rem;
+  gap: 1rem;
+  margin: 0;
 }
 .img-div {
   width: 100%;
@@ -98,7 +101,7 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 50vh;
+  height: 100vh;
   margin-bottom: 1rem;
   font-weight: 500;
   margin-top: 1rem;
@@ -108,14 +111,13 @@ span {
   background-color: black;
   opacity: 0.65;
   position: inherit;
-  top: 0;
   height: 100%;
   width: 100%;
 }
 
 .introduction-container {
   position: absolute;
-  bottom: 8rem;
+  top: 20rem;
   padding: 2rem;
 }
 .history-section {
@@ -123,7 +125,7 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 60vh;
+  height: 100vh;
   margin-bottom: 1rem;
   font-weight: 500;
 }
@@ -131,28 +133,26 @@ span {
   background-color: black;
   opacity: 0.65;
   position: inherit;
-  top: 0;
   height: 100%;
   width: 100%;
 }
 .history-container {
   position: relative;
-  bottom: 32rem;
   padding: 3rem;
+  top: -38rem;
 }
 .values-section {
   background-image: url(./images/team\ work.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 80vh;
+  height: 100vh;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 .values-container {
   position: relative;
-  bottom: 44rem;
-  padding: 3rem;
+  top: -35rem;
 }
 .overlay-values {
   background-color: black;
@@ -167,20 +167,19 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 .expertise-container {
   position: relative;
-  bottom: 39rem;
   padding: 2rem;
+  top: -36rem;
 }
 .overlay-expertise {
   background-color: black;
   opacity: 0.65;
   position: inherit;
-  top: 0;
   height: 100%;
   width: 100%;
 }
@@ -189,14 +188,14 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 70vh;
+  height: 100vh;
   margin-bottom: 1rem;
   font-weight: 500;
 }
 .facilities-container {
   position: relative;
-  bottom: 35rem;
   padding: 2rem;
+  top: -38rem;
 }
 .overlay-facilities {
   background-color: black;
@@ -209,7 +208,9 @@ span {
 footer {
   background-color: grey;
 }
-#contact-us{
-  background-color:#363F46 ;
-  margin-top:1rem;
+#contact-us {
+  background-color: #363f46;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
 }
