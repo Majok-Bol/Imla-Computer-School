@@ -56,9 +56,6 @@ body {
   gap: 3rem;
   margin-top: 0.5rem;
 }
-#nav-logo {
-  width: 10%;
-}
 
 .introduction {
   background-image: url(./images/introduction.jpg);
@@ -1299,7 +1296,7 @@ footer {
     font-size: 1.4rem;
   }
 }
-@media (max-width:1500px) {
+@media (max-width: 1500px) {
   body {
     overflow-x: hidden;
     margin: 0;
@@ -1307,18 +1304,19 @@ footer {
     padding: 0;
   }
   .image-logo {
-    width: 32%;
-    height: 32%;
+    width: 30%;
+    height: 30%;
     margin-top: 0.5rem;
+    margin-bottom: 1rem;
   }
   #header {
-    padding: 1.5rem;
+    padding: 1.2rem;
   }
   #nav-list {
     display: flex;
     flex-direction: row;
     gap: 1.2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: -7rem;
     margin-right: 2rem;
   }
@@ -1338,15 +1336,15 @@ footer {
   }
 
   .heading {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     text-align: center;
   }
   .paragraph {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 0;
   }
   .item {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -1385,7 +1383,7 @@ footer {
 
   .introduction-container {
     position: absolute;
-    top: 38rem;
+    top: 25rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -1408,7 +1406,7 @@ footer {
   }
   .history-container {
     position: relative;
-    top: -40rem;
+    top: -35rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -1425,7 +1423,7 @@ footer {
   }
   .values-container {
     position: relative;
-    top: -40rem;
+    top: -34rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -1450,7 +1448,7 @@ footer {
   .expertise-container {
     position: relative;
     padding: 2rem;
-    top: -40rem;
+    top: -34rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -1474,7 +1472,7 @@ footer {
   }
   .facilities-container {
     position: relative;
-    top: -40rem;
+    top: -34rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -1493,7 +1491,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   span {
     margin-left: 1rem;
