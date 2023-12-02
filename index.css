@@ -32,7 +32,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 4rem;
-  font-size: 1.05rem;
+  font-size: 0.8rem;
 }
 span {
   margin-left: 1rem;
@@ -73,6 +73,7 @@ span {
   display: block;
   float: right;
   padding: 0.5rem;
+  font-size: 0.8rem;
 }
 .list {
   display: flex;
