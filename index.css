@@ -423,3 +423,221 @@ footer {
     text-decoration: none;
   }
 }
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+  .image-logo {
+    width: 32%;
+    height: 32%;
+    margin-top: 0.5rem;
+  }
+  #nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 1rem;
+    margin-top: -3rem;
+    margin-right:2rem;
+  }
+  .link-list {
+    list-style: none;
+  }
+  .nav-link {
+    text-decoration: none;
+  }
+  .images-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0.5rem;
+    margin-top:2rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 1.3rem;
+  }
+  .item {
+    font-size: 1.3rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    margin-top: 0.5rem;
+  }
+
+  .introduction {
+    background-image: url(./images/introduction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+
+  .overlay-introduction {
+    background-color: black;
+    opacity: 0.65;
+    position: inherit;
+    height: 100%;
+    width: 100%;
+  }
+
+  .introduction-container {
+    position: absolute;
+    top: 90rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.5rem;
+  }
+  .history-section {
+    background-image: url(./images/intro\ two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    font-weight: 500;
+  }
+  .overlay-history {
+    background-color: black;
+    opacity: 0.65;
+    position: inherit;
+    height: 100%;
+    width: 100%;
+  }
+  .history-container {
+    position: relative;
+    top:-48rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.5rem;
+  }
+  .values-section {
+    background-image: url(./images/team\ work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .values-container {
+    position: relative;
+    top: -47rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.1rem;
+  }
+  .overlay-values {
+    background-color: black;
+    opacity: 0.65;
+    position: inherit;
+    height: 100%;
+    width: 100%;
+  }
+  .expertise-section {
+    background-image: url(./images/expertise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .expertise-container {
+    position: relative;
+    padding: 2rem;
+    top: -47.6rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.5rem;
+  }
+  .overlay-expertise {
+    background-color: black;
+    opacity: 0.65;
+    position: inherit;
+    height: 100%;
+    width: 100%;
+  }
+  .facilities-section {
+    background-image: url(./images/intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .facilities-container {
+    position: relative;
+    top: -46rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.2rem;
+  }
+  .overlay-facilities {
+    background-color: black;
+    opacity: 0.65;
+    position: inherit;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+  #icons {
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1rem;
+  }
+  span {
+    margin-left: 1rem;
+  }
+  footer {
+    background-color: grey;
+  }
+  #contact-us {
+    background-color: #363f46;
+    margin-top: 1rem;
+  }
+
+  .copy {
+    display: block;
+    float: right;
+    padding: 0.2rem;
+    font-size: 1.5rem;
+  }
+
+  .term-item {
+    list-style: none;
+
+  }
+  .term {
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+}
